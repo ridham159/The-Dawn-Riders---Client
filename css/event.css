@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+}
+pcnet{
+  width:700px;
+  height:auto;
+  margin:100px auto;
+  border:0px solid #111;
+  padding:10px;
+  position:relative;
+  list-style:none;
+}
+pcnet li{
+  padding-bottom:50px;
+}
+pcnet:before{
+  content:"";
+  position:absolute;
+  width:5px;
+  background:#aaa69d;
+  height:95%;
+  left:0px;
+  top:0;
+}
+pcnet li:before{
+  position:absolute;
+  content:'';
+  width:20px;
+  height:20px;
+  background:#ff5252;
+  left:-8px;
+  margin-top:20px;
+  border-radius:50%;
+}
+pcnet li div{
+  padding:20px;
+  padding-bottom:50px;
+  margin-left:30px;
+  position:relative;
+  background:#d1ccc0;
+  box-shadow:0px 15px 15px -10px #d1ccc0
+}
+pcnet li div h1{
+  margin-bottom:20px
+}
+pcnet li div:before{
+  content:'';
+  position:absolute;
+  left:-30px;
+  top:15px;
+  border-top:15px solid transparent;
+  border-right:15px solid #d1ccc0; 
+  border-bottom:15px solid transparent;
+  border-left:15px solid transparent;
+}
